@@ -301,26 +301,9 @@
 			</div>
 			
 			<div class="contact-row">
-			
-				<div class="contact-left">
-					<div class="contact-messenger">
-						<h3> Send us a Message</h3>
-												
-						<!---Here is the contact form--->
-
-						<form name="email_messenger" id="email_messenger" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfqI64SpDTezYtnjcl0VOwAnNTuv7KsmqpNnGL4hVUM0DLPKw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-						<input name="entry.2005620554" id="entry.2005620554" type="text" class="form-field" required>
-						<input name="entry.1045781291" id="entry.1045781291" type="text" class="form-field" required>
-						<input name="entry.1166974658" id="entry.1166974658" type="text" class="form-field" required>
-						<textarea name="entry.839337160" id="entry.839337160" class="form-field"></textarea>
-						<input type="submit" class="form-field submit" value="Send Email">
-						</form>
-														 
-						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-					</div>
-				</div>
+				<!-- A user input form for Contact to go on the left eventually -->
 				
-				
+				<!-- Contact information on the right-->
 				<div class="contact-right">
 										
 					<h3>Book a Consultation <br>Opening Hours <i class="fa fa-clock-o"></i></h3>
@@ -362,20 +345,11 @@
 
 	//change the speed to your desired transition speed
 	var scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 1000,
-	speedAsDuration: true
-});
+		speed: 1000,
+		speedAsDuration: true
+	});
 	</script>
-						  
-	<script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript">var submitted=false;</script>
-	<script type="text/javascript">
-		$('#email_messenger').on('submit', function(e) {
-  		$('#email_messenger *').fadeOut(1500);
-  		$('#email_messenger').prepend('Your submission has been processed. Thank you!');
-  		});
-	</script>					  
-						  
+				  
 	</body>
 
 </html>
