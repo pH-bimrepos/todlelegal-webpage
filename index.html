@@ -308,14 +308,15 @@
 												
 						<!---Here is the contact form--->
 
-						<form id="email_messenger" method="post" action="email_message_handle.php">
-						<input name="visitor" type="text" class="form-field" placeholder="Enter your full Name" required>
-						<input name="vis_email" type="email" class="form-field" placeholder="Enter your email address" required>
-						<input name="vis_num" type="text" class="form-field" placeholder="Enter your contact number">
-						<textarea name="user_message" class="form-field" placeholder="Type your message here" required></textarea>
+						<form name="email_messenger" id="email_messenger" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfqI64SpDTezYtnjcl0VOwAnNTuv7KsmqpNnGL4hVUM0DLPKw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;>
+						<input name="entry.2005620554" id="entry.2005620554" type="text" class="form-field" required>
+						<input name="entry.1045781291" id="entry.1045781291" type="text" class="form-field" required>
+						<input name="entry.1166974658" id="entry.1166974658" type="text" class="form-field" placeholder="Enter your contact number">
+						<textarea name="entry.839337160" id="entry.839337160" class="form-field" required></textarea>
 						<input type="submit" class="form-field submit" value="Send Email">
 						</form>
-	
+														 
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 					</div>
 				</div>
 				
@@ -365,6 +366,16 @@
 	speedAsDuration: true
 });
 	</script>
+						  
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript">var submitted=false;</script>
+	<script type="text/javascript">
+		$('#email_messenger').on('submit', function(e) {
+  		$('#email_messenger *').fadeOut(1500);
+  		$('#email_messenger').prepend('Your submission has been processed. Thank you!');
+  		});
+	</script>					  
+						  
 	</body>
 
 </html>
