@@ -505,7 +505,7 @@ hr{
 
 #Contact{
 	width: 100%;
-	padding: 70px 0;
+	padding: 70px 0 0 0;
 	background: #fff;
 }
 
@@ -518,8 +518,8 @@ hr{
 }
 
 .contact-right{
-	text-align: right;
-	width: 35%;	
+	text-align: center;
+	width: 100%;	
 }
 
 .contact-right h3{
@@ -542,7 +542,7 @@ hr{
 
 .contact-footer{
 	width: 100%;
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-bottom: 0;
 	border: solid 1px #000;
 	border-radius: 4px;
