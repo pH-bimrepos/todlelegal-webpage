@@ -1,0 +1,603 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track{
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px #fff;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: #5e5e5e;
+}
+
+
+/*--Page Banner--*/
+
+#pageBanner{
+	background: linear-gradient(rgba(128,128,128,0.4),rgba(230,230,230,0.4)), url(photos/lawpic3.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.logo{
+	width: 140px;
+	position: absolute;
+	top: 4%;
+	left: 10%;
+	border-radius:8px;
+}
+
+.pgBanner-text{
+	text-align:center;
+	color: #000;
+	padding-top: 180px;
+}
+
+.pgBanner-text h1{
+	font-size: 130px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.pgBanner-text h2{
+	font-size: 85px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.bannert-btn{
+	margin: 70px auto 0;
+}
+
+.banner-btn a{
+	width: 145px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: #000;
+	border: 1px solid #000;
+	position: relative;
+	z-index: 1;
+	transition: 0.5s;
+}
+
+.banner-btn a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: -1;
+	transition: 0.5s;
+}
+
+.banner-btn a:hover span{
+	width: 100%;
+}
+
+.banner-btn a:hover {
+	color: #000;
+}
+#navigationSide{
+ 	width: 220px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: -220px;
+	background: #808080;
+	border: 0.3px solid #fff;
+	border-radius: 2px;
+	z-index: 2;
+	transition: 0.5s;
+}
+nav{
+	margin-top: 100px;
+}
+nav ul li{
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav ul li a{
+	width:220px;
+	border: 0.5 solid #fff;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.nav-btn{
+	width: 75%;
+	border: 0.5px solid #fff;
+	border-radius: 3px;
+	line-height: 25px;
+	padding: 5px;
+	margin-right: 5px;
+	background: transparent;
+	transition: 0.5s;
+}
+
+.nav-btn:hover{
+	background:#fff;
+	color:#000;
+}
+
+.nav-btn:hover a{
+	color: #000;
+	cursor: pointer;
+}
+
+#menu_btn{
+	width: 50px;
+	height: 50px;
+	background: #808080;
+	text-align: center;
+	border: 0.2px solid #fff;
+	border-radius: 8px;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	z-index: 3;
+	cursor: pointer;
+}
+
+#menu_btn img {
+	width: 25px;
+	margin-top: 12px;
+
+}
+
+@media screen and (max-width: 770px){
+	#pageBanner{
+		height: auto;
+	}
+	.pgBanner{
+		padding-top: 50px;
+	}
+	.pgBanner-text h2{
+		font-size: 30px;
+	}
+	.pgBanner-text h1{
+		font-size: 45px;
+	}
+	.banner-btn a{
+		display:block;
+		margin: 20px auto;
+	}
+
+	#menu_btn{
+		width: 40px;
+		height: 40px;
+	}
+	#menu_btn img {
+		width: 20px;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+	#pgBanner{
+		height: auto;
+	}
+	.pgBanner-text{
+		padding-top: 80px;
+	}
+	.pgBanner-text h2{
+		font-size: 55px;
+	}
+	.pgBanner-text h1{
+		font-size: 80px;
+	}
+	
+	#menu_btn{
+		width: 40px;
+		height: 40px;
+	}
+	
+	#menu_btn img {
+		width: 20px;
+		margin-top: 10px;
+	}
+	
+	.nav-btn{
+		line-height: 15px;
+		padding: 0;
+		margin-right: 5px;
+	}
+}
+
+/*--About Section--*/
+
+#About{
+	width: 100%;
+	padding: 70px 0;
+}
+
+.SectionTitle{
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.SectionTitle p{
+	margin: auto;
+	font-size: 30px;
+	font-weight: bold;
+	postion: relative;
+	z-index: 1;
+	display: inline-block;
+}
+
+.SectionTitle h1{
+	color: #000;
+	font-size: 80px;
+	font-family: 'Kaushan Script', cursive;	
+}
+
+.profile-box{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background:#808080; /*linear-gradient(#00cc00, #efefef, #00cc00)*/
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.memberProfile{
+	flex-basis: 50%;
+	height: 100%;
+}
+
+.member-img{
+	flex-basis: 50%;
+	margin: auto;
+}
+
+.member-img img{
+	width:60%;
+	margin-left: 25%;
+	border-radius: 10px;
+}
+
+.memberProfile h2{
+	text-align: left;
+	margin: 0 auto 15px auto;
+	font-family:'Kaushan Script', cursive;
+	font-weight: 100;
+	font-size: 45px;
+	color: #fff;
+}
+.profile-text{
+	width: 100%;
+}
+.profile-text p{
+	padding: 20px 20px 20px 0;
+	text-align: initial;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+@media screen and (max-width: 900px){
+	#About{
+		height: auto;
+	}
+	.SectionTitle p{
+		font-size: 25px;
+	}
+	
+	.SectionTitle h1{
+		font-size: 45px;
+	}
+
+	.memberProfile{
+		flex-basis: 100%
+	}
+
+	.member-img{
+		flex-basis: 100%;
+		margin-top: 5px;
+		margin-left: 20%;
+	}
+
+	.profile-text p{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#About{
+		height: auto;
+	}
+	.SectionTitle p{
+		font-size: 35px;
+	}
+	
+	.SectionTitle h1{
+		font-size: 55px;
+	}
+
+	.memberProfile{
+		flex-basis: 100%
+	}
+
+	.member-img{
+		flex-basis: 100%;
+		margin: 5px auto;
+	}
+
+	.profile-text p{
+		font-size: 15px;
+	}
+}
+/*--Services Section*/
+
+#Services{
+	width: 100%;
+	padding: 70px 0;
+	background: #fff /*#efefef*/;
+}
+
+.service-box{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin:auto;
+}
+
+.firm-service{
+	flex-basis: 45%;
+	text-align: center;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: #fff;
+	position: relative;
+}
+
+.firm-service img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.ser-overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	border-radius: 8px;
+	cursor: pointer;
+	opacity: 0;
+	background: #808080;
+	transition: 1s;
+}
+
+.service-desc{
+	color: #fff;
+	font-weight: 620;
+	width: 80%;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	opacity: 0;
+	transform: translateY(-15%) translateX(-50%);
+	transition: 1s;
+}
+hr{
+	background: #fff;
+	height: 2px;
+	border: 0;
+	margin: 20px auto;
+	width: 100%;
+}
+
+.service-desc h3{
+	font-size: 20px;
+	position: absolute:
+	top: 0;
+}
+
+.service-desc p{
+	width: 100%;
+	height: 190px;
+	position: absolute;
+	font-size: 12px;
+	text-align: left;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.firm-service:hover .service-desc{
+	bottom: 40%;
+	opacity: 1;
+}
+
+.firm-service:hover .ser-overlay{
+	opacity: 0.9;
+}
+
+@media screen and (max-width: 770px){
+	.firm-service{
+		flex-basis: 100%;
+		margin-bottom: 30px;
+
+	}
+	
+	.service-desc p{
+		font-size: 12px;
+		height: 150px;
+	}
+	
+	hr{
+		margin: 5px auto;
+	}
+
+	.firm-service:hover .service-desc{
+		bottom: 25% !important;
+	}
+}
+@media screen and (min-width: 770px) and (max-width:900px){
+	.service-desc p{
+		font-size: 12px;
+		height: 110px;
+	}
+}
+/*--- Testimonials Section ---*/
+
+#testimonials{
+	width: 100%;
+	height:100vh;
+	padding: 70px 0;
+}
+
+.testimonial-row{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.testimonial-col{
+	flex-basis: 28%;
+	padding: 10px;
+	margin-bottom: 25px;
+	border-radius: 8px;
+	box-shadow: 0 10px 20px 3px #808080;
+}
+
+.testimonial-col p{
+	font-size: 14px;
+}
+
+@media screen and (max-width: 770px){
+	#testimonials{
+		height: auto;
+	}
+	.testimonial-col{
+		flex-basis: 100%;
+	}
+	
+	.testimonial-col p{
+		font-size: 12px;
+	}
+}
+
+/*--Contact Section--*/
+
+#Contact{
+	width: 100%;
+	padding: 70px 0;
+	background: #fff;
+}
+
+.contact-row{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+
+.contact-right{
+	text-align: right;
+	width: 35%;	
+}
+
+.contact-right h3{
+	font-size: 20px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	margin: 5px;
+}
+
+.contact-right p{
+	font-size: 15px;
+	margin-right: 5px;
+	line-height: 30px;
+}
+
+.contact-left{
+	align-items: left;
+	width: 35%;
+}
+
+.contact-footer{
+	width: 100%;
+	margin-top: 15px;
+	border: solid 1px #000;
+	border-radius: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	background: transparent;
+	color: #000;
+}
+
+.contact-footer p{
+	padding: 2px;
+}
+
+.form-field{
+	width: 100%;
+	line-height: 25px;
+	background:transparent;
+	margin: 12px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+textarea{
+	height: 200px;
+}
+
+form .submit{
+	transition: 0.75s;
+}
+form .submit:hover{
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+}
+
+@media screen and (max-width: 770px){
+	.contact-left{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.contact-right{
+			width: 100%;
+	}
+	
+	.contact-right h3{
+		font-size: 16px;
+	}
+	.contact-right p{
+		font-size: 12px;	
+	}
+
+	.form-field{
+		font-size: 12px;
+	}
+
+	contact.row{
+		align-items: center;
+	}
+}
