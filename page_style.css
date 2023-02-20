@@ -453,10 +453,10 @@ hr{
 		bottom: 25% !important;
 	}
 }
-@media screen and (min-width: 770px) and (max-width:900px){
+@media screen and (min-width: 770px) and (max-width:1080px){
 	.service-desc p{
-		font-size: 12px;
-		height: 110px;
+		font-size: 14px;
+		height: 120px;
 	}
 }
 /*--- Testimonials Section ---*/
@@ -505,7 +505,7 @@ hr{
 
 #Contact{
 	width: 100%;
-	padding: 70px 0 0 0;
+	padding: 70px 0;
 	background: #fff;
 }
 
@@ -518,8 +518,8 @@ hr{
 }
 
 .contact-right{
-	text-align: center;
-	width: 100%;	
+	text-align: right;
+	width: 35%;	
 }
 
 .contact-right h3{
@@ -537,7 +537,23 @@ hr{
 
 .contact-left{
 	align-items: left;
-	width: 35%;
+	width: 60%;
+}
+
+.contact-left iframe{
+	width: 100%;
+	height: 400px;
+}
+
+.contact-footer{
+	width: 100%;
+	margin-top: 15px;
+	border: solid 1px #000;
+	border-radius: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	background: transparent;
+	color: #000;
 }
 
 .contact-footer{
@@ -552,11 +568,7 @@ hr{
 	color: #000;
 }
 
-.contact-footer p{
-	font-size: 8px;
-	padding: 2px;
-}
-
+/*
 .form-field{
 	width: 100%;
 	line-height: 25px;
@@ -578,11 +590,16 @@ form .submit:hover{
 	background: #000;
 	color: #fff;
 }
+*/
 
 @media screen and (max-width: 770px){
 	.contact-left{
 		width: 100%;
 		margin-bottom: 20px;
+	}
+	
+	.contact-left iframe{
+		height: 350px;
 	}
 	.contact-right{
 			width: 100%;
