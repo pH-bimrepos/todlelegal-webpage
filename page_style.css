@@ -505,7 +505,7 @@ hr{
 
 #Contact{
 	width: 100%;
-	padding: 70px 0;
+	padding: 70px 0 0 0;
 	background: #fff;
 }
 
@@ -547,17 +547,6 @@ hr{
 
 .contact-footer{
 	width: 100%;
-	margin-top: 15px;
-	border: solid 1px #000;
-	border-radius: 4px;
-	text-align: center;
-	text-transform: uppercase;
-	background: transparent;
-	color: #000;
-}
-
-.contact-footer{
-	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 0;
 	border: solid 1px #000;
@@ -566,6 +555,11 @@ hr{
 	text-transform: uppercase;
 	background: transparent;
 	color: #000;
+}
+
+.contact-footer p{
+	font-size: 8px;
+	padding: 2px;
 }
 
 /*
