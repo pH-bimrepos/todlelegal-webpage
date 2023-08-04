@@ -578,7 +578,10 @@ p button {
 	.firm-service:hover .service-desc{
 		bottom: 25% !important;
 	}
-
+	
+	.service-popup{
+		height: 500px;
+	}
 	.popup-header h3{
 		font-size: 1.5rem;
 	}
