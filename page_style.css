@@ -263,7 +263,7 @@ img.logo{
 	padding: 20px 20px 20px 0;
 	text-align: initial;
 	color: #000;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
 }
 
@@ -329,7 +329,7 @@ img.logo{
 	}
 
 	.profile-text p{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	
 	.profile-btn a{
@@ -835,5 +835,8 @@ form .submit:hover{
 
 	contact.row{
 		align-items: center;
+	}
+	.contact-footer p{
+		font-size: 6px;
 	}
 }
