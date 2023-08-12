@@ -749,6 +749,7 @@ p button {
 
 .contact-right a button {
 	background: rgba(139,82,249,0.7);
+	color: #000;
 	padding: 10px;
 	margin-right: 5px;
 	border: none;
