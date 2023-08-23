@@ -28,7 +28,7 @@ ul.desc-list{
 
 /*--Page Banner--*/
 #pageBanner{
-	background:url(photos/C8381373-CB09-45CC-A94A-D041AD77A00A.jpeg); /*linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), ;*/
+	background: url(photos/C8381373-CB09-45CC-A94A-D041AD77A00A.jpeg); /*linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), ;*/
 	background-size: initial;
 	background-repeat: no-repeat;
 	background-position: center;
