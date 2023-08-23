@@ -28,7 +28,7 @@ ul.desc-list{
 
 /*--Page Banner--*/
 #pageBanner{
-	background: linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), url(photos/logo_new0.jpeg);
+	background:#fff; /*linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), url(photos/logo_new0.jpeg);*/
 	background-size: initial;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -191,7 +191,7 @@ img.logo{
 #About{
 	width: 100%;
 	padding: 70px 0;
-	background: linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%);
+	background: #fff;/*linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%);*/
 }
 
 .SectionTitle{
@@ -372,7 +372,7 @@ img.logo{
 #Services{
 	width: 100%;
 	padding: 70px 0;
-	background: linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%);
+	background: #fff;/*linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%);*/
 }
 
 .service-box{
@@ -713,7 +713,7 @@ p button {
 #Contact{
 	width: 100%;
 	padding: 70px 0 0 0;
-	background: linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%);
+	background: #fff;/*linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%);*/
 	position: relative;
 }
 
