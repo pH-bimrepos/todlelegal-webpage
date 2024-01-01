@@ -372,7 +372,7 @@ img.logo{
 #Services{
 	width: 100%;
 	padding: 70px 0;
-	background: #fff;/*linear-gradient(to right, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%), linear-gradient(to left, rgba(139,82,249,0.4), rgba(255,0,0,0) 5%);*/
+	background: #fff;
 }
 
 .service-box{
@@ -384,7 +384,7 @@ img.logo{
 }
 
 .firm-service{
-	flex-basis: 33%;
+	flex-basis: 40%;
 	height: auto;
 	text-align: center;
 	border-radius: 8px;
@@ -424,6 +424,7 @@ img.logo{
 	transform: translateY(-15%) translateX(-50%);
 	transition: 1s;
 }
+
 hr{
 	background: #fff;
 	height: 2px;
@@ -493,6 +494,7 @@ p button {
 	width: 80%;
 	height: 80%;
 }
+
 .service-popup.active{
 	transform: translate(-50%,-50%) scale(1);
 	z-index: 6;
@@ -523,23 +525,36 @@ p button {
 
 .popup-body{
 	display: flex;
+	postion: relative;
+	height: 81%;
 	padding: 10px 15px;
 	text-align: left;
 	color: #000;
+	overflow-y: scroll;
+	
 }
+
 .pop-body-div{
 	flex-basis: 45%;
-
 }
 
+
 .pop-body-div img{
-	height: 80%;
+	height: auto;
 	width: auto;
-	max-width: 90%;
-	margin-left: 10%;
+	max-width: 80%;
+	margin-left: 25%;
 	border: none;
 	border-radius:5px;
 }
+
+
+.popup-body::-webkit-scrollbar{
+	display: none;
+	-ms-overflow-style: none;	/*internet explorer*/
+	scrollbar-width: none;		/*mozilla fireforx*/
+}
+
 
 #popup-overlay{
 	position: fixed;
@@ -581,12 +596,13 @@ p button {
 	
 	.service-popup{
 		height: 500px;
-	}
+	}	
+
 	.popup-header h3{
 		font-size: 1.5rem;
 	}
 	.popup-body{ 
-		height: 380px;
+		height: 60%;
 		overflow-y: scroll;
 		padding: 8px 12px;
 	}
@@ -627,7 +643,8 @@ p button {
 		overflow-y: scroll;
 		height: 60px;
 	}
-
+	
+	
 	.popup-body{ 
 		height: 210px;
 		overflow-y: scroll;
@@ -665,48 +682,6 @@ p button {
 	}
 }
 
-
-/*--- Testimonials Section ---*/
-
-#testimonials{
-	width: 100%;
-	height:100vh;
-	padding: 70px 0;
-}
-
-.testimonial-row{
-	width: 80%;
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	flex-wrap: wrap;
-}
-
-.testimonial-col{
-	flex-basis: 28%;
-	padding: 10px;
-	margin-bottom: 25px;
-	border-radius: 8px;
-	box-shadow: 0 10px 20px 3px ##8B52F9;
-}
-
-.testimonial-col p{
-	font-size: 14px;
-}
-
-@media screen and (max-width: 770px){
-	#testimonials{
-		height: auto;
-	}
-	.testimonial-col{
-		flex-basis: 100%;
-	}
-	
-	.testimonial-col p{
-		font-size: 12px;
-	}
-}
 
 /*--Contact Section--*/
 
