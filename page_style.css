@@ -28,7 +28,7 @@ ul.desc-list{
 
 /*--Page Banner--*/
 #pageBanner{
-	background: url("photos/logo_final.jpeg");
+	background: url(photos/logo_final.jpeg);
 	background-size: initial;
 	background-repeat: no-repeat;
 	background-position: center;
