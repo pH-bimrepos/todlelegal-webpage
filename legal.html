@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Odle & Associates | Legal Services</title>
+		<link rel="icon" href="photos/logo_final.jpeg" type="image/icon">
+		<link rel="stylesheet" href="page_style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name ="viewport" content="width=device-width, initial-scale-1">
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+		<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+		<script defer src="main.js"></script>
+	</head>
+
+<body>
+		<!-- Navigation Division -->
+		<div id="nav_top">
+			<a href="index.html"><img class = "logo" src="photos/logo_final.jpeg"></a>
+			
+		
+				<nav>
+					<ul>
+						<li><a href="#Contact"><button class="nav-btn">Contact Us</button></a></li>
+						<li class = "dropdown"><a>
+							<button class="nav-btn drop-btn">Services <i class="fa fa-caret-down" style="color:#1f2839;"></i>
+							</button>
+						     </a>
+							<div class ="dropdown-items">
+								<a href="lawnerds.html">Law Tutoring</a>
+								<a href="#Services">Legal Services</a>
+								<a href="consultancy.html">Business Coaching</a>
+						        </div>
+						    </li>
+						<li><a href="index.html"><button class="nav-btn">Home</button></a></li>
+						
+					</ul>
+				</nav>
+		</div>
+	
+
+<!-- Page Banner -->
+		<section id="pageBanner">
+			<div class="BannerContent">
+				<div class="bannerText" style = "font-size:25px">
+					<h4>WELCOME TO OUR LAW OFFICE PAGE</h3>
+				</div>
+				
+				<div class="banner-btn">
+					<a href="#Services"><span></span>Click Here For Legal Services</a>
+				</div>
+				
+				<div class="banner-btn">
+					<a href="consultancy.html"><span></span>Click Here For Business Coaching</a>
+				</div>
+				
+				<div class="banner-btn">
+					<a href="lawnerds.html"><span></span>Click Here For Law Tutoring</a>
+				</div>
+				
+			</div>
+		</section>
+
+
+<!-- Services-->
+
+		<section id="Services">
+			<div class="SectionTitle">
+				<p>What we offer<p>
+				<h1> Our Legal Services</h1>
+			</div>
+
+			<!--- Here is where you will find information for the Law office Services--->			
+
+			<div class="service-box">
+
+				<div class="firm-service">
+					<img src="photos/estate-planning.jpg">
+					
+					<div class="ser-overlay"></div>
+					
+					<div class="service-desc">
+						<h3>Estates</h3>
+						<hr>
+						<p>
+							Creating a will provides you with certainty as to what will happen to your family and assets once you have passed. 
+							This is a key way to help your loved ones during a time when they will face emotional distress and rapid change. 
+							We know how confusing and emotional the entire process can be. We will therefore work alongside you to understand what is most important to you and your family. 
+							Once we have grasped such we will then advise you and assist you in making the right decisions, devising the most appropriate strategy to suit your needs 
+							without making it too complex. 
+ 							
+							<br><br>
+
+							<button class="service_pop" data-popup-target= "#estate-planning">
+							Click Here To Learn More
+							</button>
+						</p>
+					</div>	
+				</div>
+
+
+				<div class="firm-service">
+					<img src="photos/family_law.jpg">
+					
+					<div class="ser-overlay"></div>
+					
+					<div class="service-desc">
+						<h3>Family Law</h3>
+						<hr>
+						<p> 
+							Going through a family law matter can be one of the most difficult things you will ever go through in your 
+							lifetime. With our professionalism, integrity and compassion, we are able to provide you with confidence in a 
+							time when nothing in life seems certain and help you create a custom solution that addresses your needs and 
+							priorities, and keeps your family’s well being at the forefront.
+
+							<br><br>
+							
+							<button class="service_pop" data-popup-target= "#family-law">
+								Click Here To Learn More
+							</button>
+							
+						</p>
+					</div>	
+				</div>
+
+
+				
+				<div class="firm-service">
+					<img src="photos/civil_law.jpg">
+
+					<div class="ser-overlay"></div>
+
+					<div class="service-desc">
+						<h3>Civil Litigation</h3>
+						<hr>
+						<p> 
+							Finding yourself in the middle of a dispute is never easy. 
+							You want a swift and favorable resolution so that you can move on.
+							We focus first on the duties owed among the involved parties as well as 
+							analysis of the value of claims in order to obtain the best possible resolution 
+							of your case without undue expense or delay.
+
+							<br><br>
+
+							<button class="service_pop" data-popup-target= "#civil-law">
+								Click Here To Learn More
+							</button>									
+						</p>
+					</div>	
+				</div>
+
+
+				<div class="firm-service">
+					<img src="photos/company_law.jpg">
+					
+					<div class="ser-overlay"></div>
+					
+					<div class="service-desc">
+						<h3>Business Law</h3>
+						<hr>
+						<p>
+							The pursuit of a business venture is often grounded in a deep rooted desire for independence, self-expression and financial security. 
+							Whether your business is still an idea or well established, a number of questions arise. We understand the challenges and issues that face business owners, 
+							from start-ups to established corporate entities,  and as a result we aim to provide support and assistance to ensure that your business relations are 
+							handled with care.
+
+							<br><br>
+
+							<button class="service_pop" data-popup-target= "#business-law">
+								Click Here To Learn More
+							</button>
+						</p>
+					</div>
+				</div>
+
+				
+			</div>
+
+
+
+<!-------------------------------- Divisions for the popup windows in the service section -------------------------------->
+		<div id="popup-overlay"></div>
+		<div class = "service-popup" id="estate-planning">
+			
+			<div class="popup-header">
+				<div class="popup-title">
+					<h3>Estate</h3>
+				</div>
+				<button class="close-button" data-close-button >&times;</button>	
+			</div>
+				<div class="popup-body">
+							<div class="pop-body-div">
+							<p>
+							Creating a will provides you with certainty as to what will happen to your family and assets once you have passed. 
+							This is a key way to help your loved ones during a time when they will face emotional distress and rapid change. 
+							We know how confusing and emotional the entire process can be. We will therefore work alongside you to understand what is most important to you and your family. 
+							Once we have grasped such we will then advise you and assist you in making the right decisions, devising the most appropriate strategy to suit your needs 
+							without making it too complex.
+							
+							<br><br>	
+
+							Our services include but are not limited to:
+							</p>
+
+							<ul class="desc-list">
+								<li>Estate Planning								</li>
+								<li>Wills & Codicils								</li>
+								<li>Will and Probate Searches							</li>
+								<li>Advising on Legal Entitlements						</li>
+								<li>Investigating the Assets and Debts of the Deceased				</li>
+								<li>Grants of Probate and Letters of Administration				</li>
+								<li>Resealing of Foreign Grants							</li>
+								<li>Administration of the Estate						</li>
+								<li>Supervising the Distribution of Assets					</li>
+								<li>Preparing Documents to Transfer Ownership of the Property of the Deceased	</li>
+
+							</ul>
+							
+							<br><br>
+							
+							<h4> Trust Law</h4>
+							
+							<p>
+							Our services include but are not limited to:
+							</p>
+
+							<ul class="desc-list">
+								<li>Trust planning					</li>
+								<li>Drafting of trust deeds				</li>
+								<li>Advising trustees of trusts				</li>
+								<li>Representation in litigated trust matters		</li>
+							</ul>
+							
+							</div>
+							<div class="pop-body-div"><img src="photos/estate-planning2.jpg"></div>
+				</div>
+
+		</div>
+
+
+
+
+
+		<div class = "service-popup" id="family-law">
+			<div class="popup-header">
+				<div class="popup-title">
+					<h3>Family Law</h3>
+				</div>
+				<button class="close-button" data-close-button >&times;</button>	
+			</div>
+				<div class="popup-body">
+						<div class="pop-body-div">
+							<p>
+							Going through a family law matter can be one of the most difficult things you will ever go through in your 
+							lifetime. With our professionalism, integrity and compassion, we are able to provide you with confidence in a 
+							time when nothing in life seems certain and help you create a custom solution that addresses your needs and 
+							priorities, and keeps your family’s well being at the forefront.
+							<br><br>
+							Our services include but are not limited to:
+							</p>
+
+							<ul class="desc-list">
+								<li>Divorce					</li>
+								<li>Child Custody				</li>
+								<li>Child Support & Visitation			</li>
+								<li>Divorce					</li>
+								<li>Domestic Violence				</li>
+								<li>Guardianship				</li>
+								<li>Separation					</li>
+								<li>Restraining Orders				</li>
+								<li>Adoption					</li>
+							</ul>
+						</div>
+						<div class="pop-body-div"><img src="photos/family_law2.jpg"></div>
+				</div>
+
+		</div>
+
+
+
+		
+
+
+		<div class = "service-popup" id="civil-law">
+			<div class="popup-header">
+				<div class="popup-title">
+					<h3>Civil Litigation</h3>
+				</div>
+				<button class="close-button" data-close-button >&times;</button>	
+			</div>
+				<div class="popup-body">
+						<div class="pop-body-div">
+							<p>
+							Finding yourself in the middle of a dispute is never easy. 
+							You want a swift and favorable resolution so that you can move on.
+							We focus first on the duties owed among the involved parties as well as 
+							analysis of the value of claims in order to obtain the best possible resolution 
+							of your case without undue expense or delay.
+							<br><br>
+							Our services include but are not limited to:
+							</p>
+
+							<ul class="desc-list">
+								<li>Personal Injury			</li>
+								<li>Property Damages			</li>
+								<li>Defamation				</li>
+								<li>Economic Losses			</li>
+								<li>Breach of Contract			</li>
+								<li>Employment Litigation		</li>
+								<li>Negligence				</li>
+							</ul>
+							
+							<br><br>
+							<h4>Personal Injury</h4>
+							<p>
+							An injury can occur when you least expect it, and change your life forever. 
+							We understand that the healing process can be long and hard and the last thing you want to deal 
+							with is the financial burden caused by the injury and communicating with the party responsible. 
+							With the necessary experience and compassion to handle your claim, you can trust that we will focus on getting 
+							compensation for you while you focus on healing.
+ 							<br><br>
+							Our scope of personal injury cases include but is not limited to:
+							</p>
+							<ul class="desc-list">
+								<li>Auto Accidents				</li>
+								<li>Slip and Fall Accidents			</li>
+								<li>Workplace Accidents				</li>
+								<li>Medical Malpractice				</li>
+								<li>Product Liability/ Product Defects		</li>
+								<li>Pet Attacks					</li>
+							</ul>
+
+							<br>
+
+							<p>Our services include but are not limited to: </p>
+							<ul class = "desc-list">
+								<li>Communicating with the party responsible			</li>
+								<li>Obtaining medical evidence of the extent of the injuries	</li>
+								<li>Researching the extent of the compensation entitled		</li>
+								<li>Preparing a Quantified Claim				</li>
+								<li>Negotiating a monetary settlement				</li>
+							</ul>
+						</div>
+						
+						<div class="pop-body-div"><img src="photos/civil_law2.jpg"></div>
+				</div>
+
+		</div>
+
+
+
+
+	
+		
+		
+		<div class = "service-popup" id="business-law">
+			<div class="popup-header">
+				<div class="popup-title">
+					<h3>Business Law</h3>
+				</div>
+				<button class="close-button" data-close-button >&times;</button>	
+			</div>
+				<div class="popup-body">
+						<div class="pop-body-div">
+							<p>
+							The pursuit of a business venture is often grounded in a deep rooted desire for independence, 
+							self-expression and financial security. Whether your business is still an idea or well established, 
+							a number of questions arise. We understand the challenges and issues that face business owners, 
+							from start-ups to established corporate entities,  and as a result we aim to provide support and assistance 
+							to ensure that your business relations are handled with care.. 
+							
+							<br><br>							
+
+							Our services include but are not limited to:
+
+							</p>
+
+							<ul class="desc-list">
+								<li>Advice on the Legal Needs of your Business			</li>
+								<li>Business Registration, Incorporation and Filing		</li>
+								<li>Contract Preparation, Review and Enforcement		</li>
+								<li>Employment							</li>
+								<li>Commercial Leases						</li>
+								<li>Conducting any necessary Court Proceedings			</li>
+							</ul>
+						
+						
+						<br><br>
+						<h4>Contract Law</h4>
+						<p>
+							A good contract clearly defines the rights and obligations of the parties and provides a 
+							means by which its terms can be enforced. It is therefore necessary that care be taken 
+							in the drafting of a contract or that advice be obtained at an early stage to ensure 
+							that the contract achieves these objectives. 
+							
+							<br><br>							
+
+							In an effort to protect your rights under a contract we offer the following:
+
+							</p>
+
+							<ul class="desc-list">
+								<li>Reviewing Contracts Before Signing				</li>
+								<li>Preparing Contracts						</li>
+								<li>Advising on Contractual Liabilities				</li>
+								<li>Calculating Compensation for Breaches of Contracts		</li>
+								<li>Negotiating Settlements					</li>
+								<li>Conducting Court Proceedings				</li>
+							</ul>
+
+						<br><br>
+						<h4>Employment Law</h4>
+						
+						<p>
+							Finding yourself in a position where you feel as though you’ve been wrongfully terminated or unfairly treated by an employer is never easy. 
+							We aim to focus on the duties owed to you, whether there is a breach of that duty and if there are any available remedies.
+							<br><br>
+
+							Our services include but are not limited to:
+							</p>
+
+							<ul class="desc-list">
+								<li>Communicating with your employer				</li>
+								<li>Researching the extent of the compensation entitled		</li>
+							</ul>
+
+						</div>
+						<div class="pop-body-div"><img src="photos/company_law2.jpg"></div>
+				</div>
+
+		</div>		
+
+
+
+		
+
+
+		
+	</section>
+
+
+<!--Contact-->
+	
+		<section id="Contact">
+			<div class="SectionTitle">
+				<p>Connect With Us</p>
+				<h1>How to Contact Us</h1>
+			</div>
+			
+			<div class="contact-row">
+			
+				<div class="contact-left">
+					<div class="contact-messenger">
+						<h3> Send us a Message</h3>
+												
+						<!---Here is the contact form--->
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqI64SpDTezYtnjcl0VOwAnNTuv7KsmqpNnGL4hVUM0DLPKw/viewform?embedded=true" 
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	
+					</div>
+				</div>
+				
+				
+				<div class="contact-right">
+										
+					<h3>Opening Hours <i class="fa fa-clock-o"></i></h3>
+					<h5>(By Appointment Only)</h5>
+					<p> 	
+						Monday to Friday - 8:00am to 5:00pm <br>
+						Saturday - 9:00am to 1:00pm	<br>
+						Sunday and Holidays - Closed
+					</p>
+					<br>
+
+					<h3>Schedule a meeting</h3>
+					<a><button class="service_pop" data-popup-target= "#scheduler" style = "width:auto; font-weight:bold;">Click to schedule</button></a>
+					<br><br>
+					
+					<div id="popup-overlay"></div>
+					<div class="service-popup" id ="scheduler">
+						<div class="popup-header">
+							<div class="popup-title">
+								<h3>Schedule a Meeting</h3>
+							</div>
+							<button class="close-button" data-close-button >&times;</button>	
+						</div>
+						<div class="popup-body">
+							<!-- Calendly inline widget begin -->
+							<div class="calendly-inline-widget" data-url="https://calendly.com/todlelaw/30-minute-virtual-consultation">
+							</div>
+							<!-- Calendly inline widget end -->
+						</div>
+					</div>
+
+					<h3>Call Us <i class="fa fa-phone"></i></h3>
+					<p>	+1-246-829-0832 <br>
+						+1-246-257-0861
+					</p>
+				
+					<h3>Email <i class="fa fa-paper-plane"></i></h3>
+					<p>todlelaw@gmail.com</p>
+
+					<br>
+					<a href="https://wa.me/message/5CAR2NMZIL5GM1" target="_blank"><button><i class="fa fa-whatsapp"></i></button></a>
+					<a href="https://www.instagram.com/odleandassociates?igsh=NDNnbGV4azhnb3Jw" target="_blank"><button><i class="fa fa-instagram"></button></i></a>
+					<a href="https://www.linkedin.com/in/terryann-odle-ll-b-hons-b0161a284" target="_blank"><button><i class="fa fa-linkedin"></i></button></a>
+				</div>
+	
+			</div>
+			
+		</section>
+
+		<div class="pg_footer" style = "margin-left:0;width:auto;">
+					<p>Odle & Associates &copy 2023</p>
+		</div>
+
+	<script>
+		//change the speed to your desired transition speed
+		var scroll = new SmoothScroll('a[href*="#"]', {
+			speed: 1000,
+			speedAsDuration: true
+		});
+	</script>
+
+</body>
