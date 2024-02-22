@@ -259,10 +259,10 @@ img.logo{
 		position: absolute;
 		top: 70%;
 		left: 50%;
-		transform: translate(-80%, +10%);
+		transform: translate(-80%, 0);
 	}
 	.BannerContent h4{
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.banner-btn a{
 		margin: 0.5%;
@@ -284,7 +284,7 @@ img.logo{
 		transform: translate(-80%, +20%);
 	}
 	.BannerContent h4{
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.banner-btn a{
 		margin: 0.5%;
