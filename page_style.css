@@ -190,7 +190,7 @@ img.logo{
 	}
 
 	#pageBanner{
-		background-size: contain;
+		background-size: 68% auto;
 		height: cal(100vh - 10%);
 	}
 
