@@ -34,6 +34,7 @@ iframe{
 }
 
 
+
 /*--Page Banners--*/
 #pageBanner{
 	background: url(photos/logo_final.jpeg);
@@ -188,10 +189,10 @@ img.logo{
 		margin-top: 3.75%;
 		font-size: 12px;
 	}
-
+	
 	#pageBanner{
-		background-size: 68% auto;
 		height: cal(100vh - 10%);
+		background-size: 68% auto;
 	}
 
 	nav ul li a button{
@@ -216,7 +217,7 @@ img.logo{
 	.banner-btn a{
 		margin: 0.5%;
 		font-size: 13px;
-		width: 145px;
+		width: 100px;
 	}
 }
 
@@ -250,7 +251,10 @@ img.logo{
 }
 
 @media screen and (max-width: 440px){
-
+	.dropdown-items{
+		font-size: 11px;
+		margin-top: 1.5%;
+	}
 	#pgBanner{
 		height: auto;
 	}
@@ -1047,4 +1051,30 @@ ul.desc-list li{
 	.contact-footer p{
 		font-size: 6px;
 	}
+}
+
+/*-- Error pages --*/
+/*-- 404 page --*/
+#404_page{
+	height: 100vh;
+}
+.ErrorContent{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+.ErrorText{
+	display: inline-block;
+	font-size: 3em;
+}
+@media screen and (min-width: 280px) and (max-width: 770px){
+	.ErrorContent{
+		top: 35%;
+		left: 30%;
+	}
+
+	.ErrorText{
+		font-size: 30px;
+	}
+
 }
