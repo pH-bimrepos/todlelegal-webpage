@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Odle & Associates | Home</title>
+		<link rel="icon" href="photos/logo_final.jpeg" type="image/icon">
+		<link rel="stylesheet" href="page_style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name ="viewport" content="width=device-width, initial-scale-1">
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+		<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+		<script defer src="main.js"></script>
+	</head>
+
+	<body>
+	<!-- Banner (top of the webpage)-->
+		<section id="pageBanner">
+		
+			<div class="BannerContent">
+				<div class="bannerText">
+					<h3>Service that is personalized, ethical and reliable every time.</h3>
+				</div>
+
+				<div class="banner-btn">
+					<a href="#About"><span></span>Learn More</a>
+				</div>
+				<div class="banner-btn">
+					<a href="lawnerds.html"><span></span>Law Tutoring</a>
+				</div>
+				<div class="banner-btn">
+					<a href="legal.html"><span></span>Legal Services</a>
+				</div>
+				<div class="banner-btn">
+					<a href="consultancy.html"><span></span>Business Coaching</a>
+				</div>
+
+			</div>
+		</section>
+
+		<div id="nav_top">
+			<a href="#pageBanner"><img class = "logo" src="photos/logo_final.jpeg"></a>
+			
+		
+				<nav>
+					<ul>
+						<li><a href="#Contact"><button class="nav-btn">Contact Us</button></a></li>
+						<li class = "dropdown"><a>
+							<button class="nav-btn drop-btn">Services <i class="fa fa-caret-down" style="color:#1f2839;"></i>
+							</button>
+						     </a>
+							<div class ="dropdown-items">
+								<a href="lawnerds.html">Law Tutoring</a>
+								<a href="legal.html">Legal Services</a>
+								<a href="consultancy.html">Business Coaching</a>		
+						        </div>
+						    </li>
+						<li><a href="#About"><button class="nav-btn">Meet Us</button></a></li>
+						<li><a href="#pageBanner"><button class="nav-btn">Home</button></a></li>
+						
+					</ul>
+				</nav>
+		</div>
+	<!--About-->
+
+		<section id="About">
+			<div class="SectionTitle">
+				<p>About Us</p>
+				<h1>Meet the Team</h1>
+			</div>
+
+			<!--- Here is where the profile Bios for members of the team will go--->
+
+			<div class="profile-box">
+				<div class="memberProfile">
+					<h2>Principal Attorney</h2>
+
+					<div class="profile-text">
+						<p>
+							Miss TerryAnn Odle attained her Bachelor of Laws Degree with Honours, in 2019, from the University of the West Indies Cave Hill Campus. 
+							She then attended the Hugh Wooding Law School and was awarded a Legal Education certificate in 2021.
+							During her time at the Hugh Wooding Law School TerryAnn was the President of the Barbados Student Committee where she assisted 
+							many Barbadian students who were stranded at the beginning of the pandemic.
+							<br><br>
+							TerryAnn was admitted to practice law in Barbados and became a member of the Barbados Bar Association in 2021. Prior to her pursuit as an
+							independent practitioner, Miss Odle amassed a wealth of knowledge and experience sitting on boards and tribunals. In addition, she worked at a local
+							Law Firm practicing areas such as Litigation, Personal Injuries, Estates, Land Matters and Family Matters.
+							<br><br>
+						</p>
+					
+					</div>
+				</div>
+
+				<div class="member-img">
+					<img src="photos/TOdle.jpg">
+					<br>
+					<div class="profile-btn">
+					<a data-popup-target="#scheduler" style="cursor:pointer;"><span></span>Request A Consultation With TerryAnn</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+	<!--Contact-->
+	
+		<section id="Contact">
+			<div class="SectionTitle">
+				<p>Connect With Us</p>
+				<h1>How to Contact Us</h1>
+			</div>
+			
+			<div class="contact-row">
+			
+				<div class="contact-left">
+					<div class="contact-messenger">
+						<h3> Send us a Message</h3>
+												
+						<!---Here is the contact form--->
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqI64SpDTezYtnjcl0VOwAnNTuv7KsmqpNnGL4hVUM0DLPKw/viewform?embedded=true" 
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	
+					</div>
+				</div>
+				
+				
+				<div class="contact-right">
+										
+					<h3>Opening Hours <i class="fa fa-clock-o"></i></h3>
+					<h5>(By Appointment Only)</h5>
+					<p> 	
+						Monday to Friday - 8:00am to 5:00pm <br>
+						Saturday - 9:00am to 1:00pm	<br>
+						Sunday and Holidays - Closed
+					</p>
+					<br>
+
+					<h3>Schedule a meeting</h3>
+					<a><button class="service_pop" data-popup-target= "#scheduler" style = "width:auto; font-weight: bold;">Click to schedule</button></a>
+					<br><br>
+					
+					<div id="popup-overlay"></div>
+					<div class="service-popup" id ="scheduler">
+						<div class="popup-header">
+							<div class="popup-title">
+								<h3>Schedule a Meeting</h3>
+							</div>
+							<button class="close-button" data-close-button >&times;</button>	
+						</div>
+						<div class="popup-body">
+							<!-- Calendly inline widget begin -->
+							<div class="calendly-inline-widget" data-url="https://calendly.com/todlelaw/30-minute-virtual-consultation">
+							</div>
+							<!-- Calendly inline widget end -->
+						</div>
+					</div>
+
+					<h3>Call Us <i class="fa fa-phone"></i></h3>
+					<p>	+1-246-829-0832 <br>
+						+1-246-257-0861
+					</p>
+				
+					<h3>Email <i class="fa fa-paper-plane"></i></h3>
+					<p>todlelaw@gmail.com</p>
+
+					<br>
+					<a href="https://wa.me/message/5CAR2NMZIL5GM1" target="_blank"><button><i class="fa fa-whatsapp"></i></button></a>
+					<a href="https://www.instagram.com/ttolegal?igsh=dThqeXc4M25ocDUz" target="_blank"><button><i class="fa fa-instagram"></button></i></a>
+					<a href="https://www.linkedin.com/in/terryann-odle-ll-b-hons-b0161a284" target="_blank"><button><i class="fa fa-linkedin"></i></button></a>
+				</div>
+	
+			</div>
+			
+			
+		</section>
+
+			<div class="pg_footer" style = "margin-left:0;width:auto;">
+					<p>Odle & Associates &copy 2024</p>
+			</div>
+
+	
+	<script>
+		//change the speed to your desired transition speed
+		var scroll = new SmoothScroll('a[href*="#"]', {
+			speed: 1000,
+			speedAsDuration: true
+		});
+	</script>
+	</body>
+
+</html>
